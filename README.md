@@ -4094,6 +4094,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Amendments
 
-We encourage you to fork this guide and change the rules to fit your team’s style guide. Below, you may list some amendments to the style guide. This allows you to periodically update your style guide without having to deal with merge conflicts.
+1. No implicit fallthroughs: 
+<a name="no-implicit-fallthroughs"></a>
+  - [1](#no-implicit-fallthroughs) Fallthroughs in switch statements must be explicit or avoided. eslint: [no-fallthrough](https://eslint.org/docs/latest/rules/no-fallthrough)
+
+    > Why? Avoid code duplication (or code that has to stay in sync) and be explicit when a fallthrough is the desired behavior.
 
 # };
