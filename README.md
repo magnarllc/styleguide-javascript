@@ -4095,7 +4095,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Amendments
 
 <a name="no-implicit-fallthroughs"></a>
-  - [1](#no-implicit-fallthroughs) Fallthroughs in switch statements must be explicit or avoided. eslint: [no-fallthrough](https://eslint.org/docs/latest/rules/no-fallthrough)
+  - [A.1](#no-implicit-fallthroughs) Fallthroughs in switch statements must be explicit or avoided. eslint: [no-fallthrough](https://eslint.org/docs/latest/rules/no-fallthrough)
 
     > Why? Avoid code duplication (or code that has to stay in sync) and be explicit when a fallthrough is the desired behavior.
 
