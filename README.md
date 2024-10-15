@@ -4094,6 +4094,14 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Amendments
 
-We encourage you to fork this guide and change the rules to fit your team’s style guide. Below, you may list some amendments to the style guide. This allows you to periodically update your style guide without having to deal with merge conflicts.
+<a name="no-implicit-fallthrough"></a>
+  - [A.1](#no-implicit-fallthrough) Fallthroughs in switch statements must be explicit or avoided. eslint: [no-fallthrough](https://eslint.org/docs/latest/rules/no-fallthrough)
+
+    > Why? Avoid code duplication (or code that has to stay in sync) and be explicit when a fallthrough is the desired behavior.
+    
+<a name="no-dynamic-require"></a>
+  - [A.2](#no-dynamic-require) Dynamic requires should be avoided. eslint: [no-dynamic-require](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md)
+
+    > Why? Makes tooling and analysis a lot more difficult or nearly impossible since the paths must be evaluated at runtime. Cannot easily find the module referenced.
 
 # };
