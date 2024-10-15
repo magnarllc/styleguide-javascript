@@ -4094,13 +4094,13 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Amendments
 
-<a name="no-implicit-fallthroughs"></a>
-  - [A.1](#no-implicit-fallthroughs) Fallthroughs in switch statements must be explicit or avoided. eslint: [no-fallthrough](https://eslint.org/docs/latest/rules/no-fallthrough)
+<a name="no-implicit-fallthrough"></a>
+  - [A.1](#no-implicit-fallthrough) Fallthroughs in switch statements must be explicit or avoided. eslint: [no-fallthrough](https://eslint.org/docs/latest/rules/no-fallthrough)
 
     > Why? Avoid code duplication (or code that has to stay in sync) and be explicit when a fallthrough is the desired behavior.
     
 <a name="no-dynamic-require"></a>
-  - [A.2](#no-dynamic-require) Dynamic requires should be avoided. eslint: [no-dynamic-require]([https://eslint.org/docs/latest/rules/no-fallthrough](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md))
+  - [A.2](#no-dynamic-require) Dynamic requires should be avoided. eslint: [no-dynamic-require](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md)
 
     > Why? Makes tooling and analysis a lot more difficult or nearly impossible since the paths must be evaluated at runtime. Cannot easily find the module referenced.
 
